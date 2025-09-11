@@ -1,4 +1,4 @@
-package boj.bfs_dfs.boj_14501_layoff;
+package boj.boj_14501_layoff;
 
 import java.io.BufferedReader;
 import java.io.IOException;

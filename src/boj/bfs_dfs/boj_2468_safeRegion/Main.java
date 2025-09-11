@@ -1,4 +1,4 @@
-package boj.boj_2468_safeRegion;
+package boj.bfs_dfs.boj_2468_safeRegion;
 
 
 import java.io.BufferedReader;
