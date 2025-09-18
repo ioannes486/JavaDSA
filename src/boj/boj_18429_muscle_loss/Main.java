@@ -21,7 +21,7 @@ import java.util.StringTokenizer;
 
 */
 public class Main {
-    static int N;
+    static int N, answer;
     static int K;
     static int[] kits, path, used;
 
@@ -36,18 +36,26 @@ public class Main {
         kits = new int[N];
         path = new int[N];
         used = new int[N];
+        answer = 0;
 
         for (int i = 0; i < N; i++) {
             kits[i] = Integer.parseInt(st.nextToken()) - K;
         }
         perm(0);
-        System.out.println(Arrays.toString(kits));
+
+        System.out.println(answer);
     }
 
 
     public static void perm(int idx){
         if (idx == N) {
 
+            int result = 0;
+            for (int j = 0; j < N; j++){
+                result = result + path[j];
+                if (result < 0) return;
+            }
+            answer ++;
             return;
         }
 

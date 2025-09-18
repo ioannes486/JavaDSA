@@ -33,7 +33,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-
+        // 입출력
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
         arr = new int[N][M];
@@ -44,14 +44,16 @@ public class Main {
                 arr[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-
+        // 솔브 함수를 구해서 출력
         System.out.println(solve());
     }
 
     static int solve() {
 
 
-        int yearCount = 0;
+        int yearCount = 0;  // 답이 될 변수
+
+
         while (countIsland() == 1) {
             yearCount++;
             int zeroCount = 0;
@@ -76,6 +78,7 @@ public class Main {
     static int countIsland() {
 
         int numberOfIsland = 0;
+
         for (int i = 0; i < N; i++) {
             Arrays.fill(visited[i], -1);
         }
