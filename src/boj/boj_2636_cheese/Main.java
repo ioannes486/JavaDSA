@@ -34,6 +34,7 @@ public class Main {
     static int N, M;
     static int[][] arr;
     static int[][] visited;
+    static int cheeseCount;
 
     static final int[] di = {-1, 1, 0, 0};
     static final int[] dj = {0, 0, -1, 1};
@@ -46,14 +47,24 @@ public class Main {
         M = Integer.parseInt(st.nextToken());
 
         arr = new int[N][M];
+
+        for (int i = 0; i < N; i++){
+            st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < M; j++){
+                arr[i][j] = Integer.parseInt(st.nextToken());
+            }
+        }
         visited = new int[N][M];
 
         int result = 0;
-        while (!isAllCheeseMelted()){
-            result++;
+        while (cheeseRemains()) {
+            result ++;
             solve();
         }
+
+
         System.out.println(result);
+        System.out.println(cheeseCount);
 
     }
 
@@ -71,9 +82,10 @@ public class Main {
                 int ni = v[0] + di[dir];
                 int nj = v[1] + dj[dir];
 
-                if (0 <= ni && ni < N && 0 <= nj && nj < N) {
+                if (0 <= ni && ni < N && 0 <= nj && nj < M) {
                     if (visited[ni][nj] == -1 && arr[ni][nj] == 0) {
                         visited[ni][nj] = 1;
+                        q.offer(new int[] {ni, nj});
                     }
                 }
             }
@@ -85,7 +97,7 @@ public class Main {
             int ni = i + di[dir];
             int nj = j + dj[dir];
 
-            if (0 <= ni && ni < N && 0 <= nj && nj < N) {
+            if (0 <= ni && ni < N && 0 <= nj && nj < M) {
                 if (visited[ni][nj] == 1) {
                     arr[i][j] = 0;
                     return;
@@ -103,23 +115,28 @@ public class Main {
         // 공기 영역 체크
         checkAir();
 
+
+        cheeseCount = 0;
+
+
         // 외각 치즈 녹이기
         for (int i = 0; i < N; i++){
             for (int j = 0; j < M; j++){
+                if (arr[i][j] == 1) cheeseCount++;
                 meltCheeze(i, j);
             }
         }
     }
 
-    static boolean isAllCheeseMelted(){
+    static boolean cheeseRemains(){
         for (int i = 0; i < N; i++){
             for (int j = 0; j < M; j++){
                 if (arr[i][j] == 1){
-                    return false;
+                    return true;
                 }
             }
         }
-        return true;
+        return false;
     }
 }
 
