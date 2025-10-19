@@ -1,12 +1,8 @@
-package boj.boj_1189_come_back_home;
-
-import org.w3c.dom.ls.LSOutput;
+package boj.bfs_dfs.boj_1189_come_back_home;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
 import java.util.Arrays;
-import java.util.Queue;
 import java.util.StringTokenizer;
 
 /*TODO:

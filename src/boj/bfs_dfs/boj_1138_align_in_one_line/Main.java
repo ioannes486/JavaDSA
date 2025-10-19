@@ -1,4 +1,4 @@
-package boj.boj_1138_align_in_one_line;
+package boj.bfs_dfs.boj_1138_align_in_one_line;
 
 
 import java.io.BufferedReader;
