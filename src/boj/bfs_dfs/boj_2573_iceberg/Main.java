@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/bfs_dfs/boj_2573_iceberg/Main.java
 package boj.bfs_dfs.boj_2573_iceberg;
-========
-package boj.unclassified.boj_2573_iceberg;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_2573_iceberg/Main.java
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

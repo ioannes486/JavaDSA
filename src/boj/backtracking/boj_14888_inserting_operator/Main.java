@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/backtracking/boj_14888_inserting_operator/Main.java
 package boj.backtracking.boj_14888_inserting_operator;
-========
-package boj.unclassified.boj_14888_inserting_operator;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_14888_inserting_operator/Main.java
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

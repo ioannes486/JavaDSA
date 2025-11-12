@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/simulation/boj_16236_babyshark_dduDduRuRuDduu/Main.java
 package boj.simulation.boj_16236_babyshark_dduDduRuRuDduu;
-========
-package boj.unclassified.boj_16236_babyshark_dduDduRuRuDduu;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_16236_babyshark_dduDduRuRuDduu/Main.java
 
 
 

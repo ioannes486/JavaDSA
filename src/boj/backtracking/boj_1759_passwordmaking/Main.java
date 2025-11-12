@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/backtracking/boj_1759_passwordmaking/Main.java
 package boj.backtracking.boj_1759_passwordmaking;
-========
-package boj.unclassified.boj_1759_passwordmaking;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_1759_passwordmaking/Main.java
 
 
 import java.io.BufferedReader;

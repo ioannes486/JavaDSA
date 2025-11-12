@@ -1,9 +1,4 @@
-<<<<<<<< HEAD:src/boj/tree/boj_3584_common_ancestor/Main.java
 package boj.tree.boj_3584_common_ancestor;
-========
-package boj.unclassified.boj_3584_common_ancestor;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_3584_common_ancestor/Main.java
-
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

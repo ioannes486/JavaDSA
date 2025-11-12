@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/backtracking/boj_18429_muscle_loss/Main.java
 package boj.backtracking.boj_18429_muscle_loss;
-========
-package boj.unclassified.boj_18429_muscle_loss;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_18429_muscle_loss/Main.java
 
 
 import java.io.BufferedReader;

@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/dynamicprogramming/boj_14916_change/Main.java
 package boj.dynamicprogramming.boj_14916_change;
-========
-package boj.unclassified.boj_14916_change;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_14916_change/Main.java
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

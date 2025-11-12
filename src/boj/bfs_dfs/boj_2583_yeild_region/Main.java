@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/bfs_dfs/boj_2583_yeild_region/Main.java
 package boj.bfs_dfs.boj_2583_yeild_region;
-========
-package boj.unclassified.boj_2583_yeild_region;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_2583_yeild_region/Main.java
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/backtracking/boj_2992_bigandsmallnumber/Main.java
 package boj.backtracking.boj_2992_bigandsmallnumber;
-========
-package boj.unclassified.boj_2992_bigandsmallnumber;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_2992_bigandsmallnumber/Main.java
 
 
 

@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/backtracking/boj_14501_layoff/Main.java
 package boj.backtracking.boj_14501_layoff;
-========
-package boj.unclassified.boj_14501_layoff;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_14501_layoff/Main.java
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

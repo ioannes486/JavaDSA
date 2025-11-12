@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/backtracking/boj_9095_sumof123/Main.java
 package boj.backtracking.boj_9095_sumof123;
-========
-package boj.unclassified.boj_9095_sumof123;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_9095_sumof123/Main.java
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

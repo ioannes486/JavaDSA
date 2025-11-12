@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/backtracking/boj_14889_start_and_link/Main.java
 package boj.backtracking.boj_14889_start_and_link;
-========
-package boj.unclassified.boj_14889_start_and_link;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_14889_start_and_link/Main.java
 
 
 import java.io.BufferedReader;

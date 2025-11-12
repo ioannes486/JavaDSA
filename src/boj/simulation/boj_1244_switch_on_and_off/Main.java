@@ -1,8 +1,4 @@
-<<<<<<<< HEAD:src/boj/simulation/boj_1244_switch_on_and_off/Main.java
 package boj.simulation.boj_1244_switch_on_and_off;
-========
-package boj.unclassified.boj_1244_switch_on_and_off;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_1244_switch_on_and_off/Main.java
 
 
 import java.io.BufferedReader;

@@ -1,10 +1,4 @@
-<<<<<<<< HEAD:src/boj/bfs_dfs/boj_1697_sumbakkokjil/Main.java
 package boj.bfs_dfs.boj_1697_sumbakkokjil;
-========
-package boj.unclassified.boj_1697_sumbakkokjil;
->>>>>>>> 60271451f6be405a248368dc05074475e09c24df:src/boj/unclassified/boj_1697_sumbakkokjil/Main.java
-
-
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
