@@ -1,4 +1,4 @@
-package boj.boj_14500_tetromino;
+package boj.brute_force.boj_14500_tetromino;
 
 
 import java.io.BufferedReader;

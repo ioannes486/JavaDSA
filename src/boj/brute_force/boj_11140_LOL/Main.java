@@ -1,9 +1,9 @@
-package boj.boj_11140_LOL;
+package boj.brute_force.boj_11140_LOL;
 
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+
 /*TODO:
 - 상수
 
