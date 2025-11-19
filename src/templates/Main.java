@@ -1,4 +1,3 @@
-package templates;
 
 
 import java.io.BufferedReader;

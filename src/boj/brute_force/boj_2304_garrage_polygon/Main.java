@@ -1,9 +1,8 @@
-package boj.boj_2304_garrage_polygon;
+package boj.brute_force.boj_2304_garrage_polygon;
 
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /*TODO:
