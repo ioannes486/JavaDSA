@@ -1,11 +1,8 @@
-package boj.boj__15861_tree_and_query;
-
-import com.sun.source.tree.Tree;
+package boj.tree.boj__15861_tree_and_query;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 

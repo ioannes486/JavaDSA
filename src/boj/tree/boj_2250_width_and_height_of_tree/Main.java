@@ -1,9 +1,8 @@
-package boj.boj_2250_width_and_height_of_tree;
+package boj.tree.boj_2250_width_and_height_of_tree;
 
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 /*TODO:
 - 상수
